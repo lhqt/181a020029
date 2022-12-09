@@ -1,14 +1,13 @@
 @font-face {
 	font-family: "Font3";
-	src: url("/font/segoeui.ttf")
-	  format("ttf");
+	src: url("/font/segoeui.ttf");
   }
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	color: #3c4257;
-	font-family: "Font3", segoe ui;
+	font-family: Font3, segoe ui;
 	user-select: none;
 	word-wrap: break-word;
 }

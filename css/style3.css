@@ -1,7 +1,6 @@
 @font-face {
 	font-family: "Font3";
-	src: url("/font/segoeui.ttf")
-	  format("ttf");
+	src: url("/font/segoeui.ttf");
   }
 
 @-webkit-keyframes fade-in {
@@ -314,7 +313,7 @@
     height: 100%;
   }
   html {
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
@@ -481,7 +480,7 @@
   }
   body {
     font-size: 14px;
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     line-height: 1.3em;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -513,7 +512,7 @@
   }
   h1,
   .heading-1 {
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     font-size: 1.7142857143em;
     line-height: 1.3em;
   }
@@ -525,7 +524,7 @@
   }
   h2,
   .heading-2 {
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     font-size: 1.2857142857em;
     line-height: 1.3em;
   }
@@ -547,7 +546,7 @@
   }
   h3,
   .heading-3 {
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     font-size: 1em;
     font-weight: 500;
     line-height: 1.3em;
@@ -3522,7 +3521,7 @@
   }
   .radio__label__primary {
     cursor: inherit;
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     vertical-align: top;
   }
   .display-table .radio__label__primary {
@@ -5680,7 +5679,7 @@
   }
   .alt-payment-list__item--apple-pay {
     background-color: #000;
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     font-weight: normal;
     text-transform: none;
     text-decoration: none;
@@ -7350,7 +7349,7 @@
   }
   .gm-style .gm-style-iw {
     color: #333333;
-    font-family: "Font3", segoe ui;
+    font-family: Font3, segoe ui;
     font-size: 14px;
     line-height: 1.5em;
     font-weight: 400;
