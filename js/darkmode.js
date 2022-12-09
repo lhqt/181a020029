@@ -12,14 +12,3 @@ let DarkMode = document.querySelector('.DarkMode');
 	DarkMode.onclick = function(){
 		body.classList.toggle('dark')
 	}
-
-let NútMenu = document.querySelector('.NútMenu');
-	NútMenu.onclick = function(){
-		const TrạngThái = ListMenu.getAttribute("TrạngThái");
-		if (TrạngThái === "ẩn"){
-			ListMenu.setAttribute("TrạngThái", "hiện");
-			X.setAttribute("class", "fa-solid fa-xmark");}
-		else{
-			ListMenu.setAttribute("TrạngThái", "ẩn");
-			X.setAttribute("class", "fa-solid fa-bars");}
-	}
