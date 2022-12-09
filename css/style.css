@@ -1,19 +1,17 @@
 @font-face {
   font-family: "Font";
-  src: url("https://github.com/lhqt/181a020029/blob/main/font/TheSimsSansSC1.ttf")
-    format("ttf");
+  src: url("https://github.com/lhqt/181a020029/blob/main/font/TheSimsSansSC1.ttf");
 }
 @font-face {
 	font-family: "Font3";
-	src: url("/font/segoeui.ttf")
-	  format("ttf");
+	src: url("/font/segoeui.ttf");
   }
 
 *{
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-  font-family: "Font", The Sims Sans SC1;
+  font-family: Font, The Sims Sans SC1;
 	color: #000;
 	font-size: 1.2rem;
   user-select: none;
