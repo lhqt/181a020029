@@ -1,9 +1,14 @@
+@font-face {
+	font-family: "Font2";
+	src: url("/font/SF-Pro-Text-Regular.ttf")
+	  format("ttf");
+  }
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	color: #111111;
-	font-family: SF PRO Text;
+	font-family: "Font2", SF PRO Text;
 	user-select: none;
 	font-size: xxx-large;
 }

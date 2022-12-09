@@ -1,8 +1,19 @@
+@font-face {
+  font-family: "Font";
+  src: url("/font/TheSimsSansSC1.ttf")
+    format("ttf");
+}
+@font-face {
+	font-family: "Font3";
+	src: url("/font/segoeui.ttf")
+	  format("ttf");
+  }
+
 *{
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	font-family: The Sims Sans SC;
+  font-family: "Font", The Sims Sans SC1;
 	color: #000;
 	font-size: 1.2rem;
   user-select: none;
@@ -239,7 +250,7 @@ transition: 0.5s;
 }
 
 h2{
-  font-family: segoe ui;
+  font-family: "Font3", segoe ui;
   font-weight: 500;
   font-size: 1rem;
   width: 40rem;
