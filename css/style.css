@@ -14,7 +14,7 @@
   font-family: Font, The Sims Sans SC1;
 	color: #000;
 	font-size: 1.2rem;
-  user-select: none;
+  user-select: unset;
 }
 
 #gradient-canvas {
